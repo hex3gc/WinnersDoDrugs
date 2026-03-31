@@ -1,0 +1,57 @@
+{
+    "en":
+    {
+        "WDD_EXPANSION_NAME": "WinnersDoDrugs",
+        "WDD_EXPANSION_DESC": "Adds content from 'WinnersDoDrugs' to the game.",
+
+        "WDD_ITEM_DEMONTIME_NAME": "Demon Time",
+        "WDD_ITEM_DEMONTIME_PICKUP": "Increases game speed‼",
+        "WDD_ITEM_DEMONTIME_DESC": ":speaking: Increases game speed by <style=cIsUtility>20%</style> per stack‼ :fire: :fire:",
+        "WDD_ITEM_DEMONTIME_LORE": "What?\nWhat? What? What?\nPush up (what, what?)\n\nPush up (woo)\nPush up, yeah (woo)\nPush up (what? Woo)\nPush (yeah)\nPush (slatt), push (blatt)\n\nRide 'round town with the Draco, bih\nD-R-A-C-O, yeah (woo, woo)\nRide 'round town with the Draco, bih\nD-R-A-C-O, yeah\nD-R-A-C-O, D-R-A-C-O (yeah)\nD-R-A-C-O (yeah), D-R-A-C-O\n\nI got a Draco in my bookbag, lil' bitch (yeah, woo)\nThat motherfucker got a kickback on it (woo)\nThat motherfucker got a kickback on it (yeah, woo)\nAnd I put this on Onyx, I'ma leave my opp in the cement\nLay that bitch down in the yard like a picnic\nHe even ain't got no gun, how the fuck he flexin'?\nWe gon' push up, bitch, lil' bitch\nWe gon' push up, bitch, lil' bitch (pull up)\nAnd I'm takin' shit (pull up)\n\nAin't no reasonin' (yeah)\nAin't no visit shit\nEvery day my birthday, so I made a wish\nEvery day my birthday, so she suck my dick (woo, woo)\n\nRight now (what? What?)\nRight now (woo, woo)\nHold this shit down, hold this shit down\nBitch, I'm a king, but I'm tryna put on my crown\nHold this shit down\n\nPush up\nPush up\nPush up (yeah, woo, woo)\nPush up (what?)\nPush (ayy, woo)\nPush (slatt)\nPush (slatt)\n\nRide 'round town with the Draco, bih\nD-R-A-C-O, yeah (what?)\nRide 'round town with the Draco (Draco), bih (Draco)\nD-R-A-C-O, yeah\nD-R-A-C-O, D-R-A-C-O (what? What?)\nD-R-A-C-O (woo, woo), D-R-A-C-O (woo, woo)",
+    
+        "WDD_ITEM_SMIKE_NAME": "Smike",
+        "WDD_ITEM_SMIKE_PICKUP": "Small chance to stun all enemies with an <style=cDeath>extremely loud jumpscare</style>.",
+        "WDD_ITEM_SMIKE_DESC": "<style=cIsUtility>{0}%</style> <style=cStack>(+{1}% per stack)</style> chance on hit to stun all enemies within <style=cIsUtility>{2}m</style> for {3} seconds with an <style=cDeath>extremely loud jumpscare.</style>",
+        "WDD_ITEM_SMIKE_LORE": "",
+
+        "WDD_ITEM_FACTORIALPEARL_NAME": "Pearl!",
+        "WDD_ITEM_FACTORIALPEARL_PICKUP": "Increase your max health by (stack count)!",
+        "WDD_ITEM_FACTORIALPEARL_DESC": "Increase your <style=cIsHealing>max health</style> by <style=cStack>(stack count)</style><style=cIsHealing>!</style>",
+        "WDD_ITEM_FACTORIALPEARL_LORE": "",
+
+        "WDD_ITEM_TACTICALPOTS_NAME": "100 Tiny Mired Urns",
+        "WDD_ITEM_TACTICALPOTS_PICKUP": "Periodically release a burst of tactical clay pots.",
+        "WDD_ITEM_TACTICALPOTS_DESC": "Release a burst of <style=cIsDamage>50</style> <style=cStack>(+50 per stack)</style> <style=cIsDamage>tactical clay pots</style> every <style=cIsDamage>10</style> seconds.",
+        "WDD_ITEM_TACTICALPOTS_LORE": "",
+
+        "WDD_ITEM_SPEAR_NAME": "Spear of the Seven Dark Flames of the Night's Eclipse, Forged by the Gods Under the Watch of Ten Thousand Honored Knights. Receive This Item to Wield Untold Powers Beyond All Others.",
+        "WDD_ITEM_SPEAR_PICKUP": "Deal 1 more damage.",
+        "WDD_ITEM_SPEAR_DESC": "Deal <style=cIsDamage>1</style> more damage.",
+        "WDD_ITEM_SPEAR_LORE": "The name explains just about everything. Voltaire",
+
+        "WDD_ITEM_SPOPE_NAME": "Spope",
+        "WDD_ITEM_SPOPE_PICKUP": "Massively increase your damage, <style=cDeath>BUT exit the game when you are hit.</style>",
+        "WDD_ITEM_SPOPE_DESC": "Increase your damage by <style=cIsDamage>{0}%</style> <style=cStack>(+{0}% per stack)</style>. <style=cDeath>Exit the game when you are hit.</style>",
+        "WDD_ITEM_SPOPE_LORE": "We knew the world would not be the same.\n\nA few people laughed. A few people cried. Most people were silent.\n\nI remembered the line from the Hindu scripture the Bhagavad Gita. Vishnu is trying to persuade the prince that he should do his duty, and to impress him takes on his multi-armed form, he says:\n\n'Now I am become spope, the destroyer of worlds.'\n\nI spose we all thought that, one way or another.\n\n<style=cStack>- J. Rogert Spopenheimer, inventor of the Spope</style>",
+
+        "WDD_ITEM_MOONWEED_NAME": "Moon Weed (Weed from the Moon)",
+        "WDD_ITEM_MOONWEED_PICKUP": "Multiply all of your items' activation chance, <style=cDeath>BUT your camera rotates on hit. Critical strikes 'Critically Rotate' in the other direction.</style>",
+        "WDD_ITEM_MOONWEED_DESC": "<style=cIsDamage>Multiply the proc coefficient of all your attacks by {0}%</style> <style=cStack>(+{1}% per stack)</style>. <style=cDeath>Your camera rotates</style> {2} <style=cStack>(+{2} per stack)</style> degree(s) on hit. On <style=cIsDamage>'Critical Strike'</style>, your camera <style=cDeath>'Critically Rotates'</style> {3} <style=cStack>(+{3} per stack)</style> degrees in the other direction.",
+        "WDD_ITEM_MOONWEED_LORE": "DON'T EVER BUY NO WEED FROM THE LUNAR BAZAAR BRO.\n\n<style=cStack>- Mithrix</style>",
+
+        "WDD_ITEM_GAMBLER_NAME": "1-800-522-4700",
+        "WDD_ITEM_GAMBLER_PICKUP": "<style=cDeath>All nearby chests are converted into chance shrines.</style> On pickup, gain a set of profitable items.",
+        "WDD_ITEM_GAMBLER_DESC": "<style=cDeath>All nearby chests are converted into chance shrines.</style> On pickup, gain one stack each of <style=cShrine>Roll Of Pennies</style>, <style=cShrine>Ghor's Tome</style>, and <style=cShrine>Chance Doll</style>. <style=cDeath>If you lack the DLC for any of these items, you must get on</style> <style=cShrine>Stake.com</style> <style=cDeath>and win enough to buy it.</style>",
+        "WDD_ITEM_GAMBLER_LORE": "'You have a problem.'\n\n'I don't have a problem. I have a solution. That solution is betting on red, and the problem I'm solving is our mortgage payments.'",
+
+        "WDD_EQUIP_THEBOMB_NAME": "The Bomb",
+        "WDD_EQUIP_THEBOMB_PICKUP": "On detonation, deal massive damage to <style=cDeath>EVERYONE.</style>",
+        "WDD_EQUIP_THEBOMB_DESC": "Deal <style=cDeath>999,999,999</style> damage to ALL characters within <style=cIsDamage>2000m</style>.",
+        "WDD_EQUIP_THEBOMB_LORE": "",
+
+        "WDD_ITEM_PACKINGPEANUT_NAME": "Packing Peanut",
+        "WDD_ITEM_PACKINGPEANUT_PICKUP": "Prioritized when used with Common 3d printers. <style=cIsUtility>Occasionally receive this item whenever an item is picked up.</style>",
+        "WDD_ITEM_PACKINGPEANUT_DESC": "Does nothing. Prioritized when used with Common 3d printers. <style=cIsUtility>{0}% chance to receive this item whenever an item is picked up.</style>",
+        "WDD_ITEM_PACKINGPEANUT_LORE": ""
+    }
+}

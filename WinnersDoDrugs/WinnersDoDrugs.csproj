@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<LangVersion>preview</LangVersion>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<OutputPath>/home/hex3/.config/r2modmanPlus-local/RiskOfRain2/profiles/Modding/BepInEx/plugins/</OutputPath>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="drugsvfx" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="BepInEx.Analyzers" Version="1.0.*">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="BepInEx.Core" Version="5.4.21" />
+		<PackageReference Include="R2API.Director" Version="2.3.8" />
+		<PackageReference Include="R2API.Items" Version="1.0.*" />
+		<PackageReference Include="R2API.Language" Version="1.1.0" />
+		<PackageReference Include="R2API.Prefab" Version="1.1.1" />
+		<PackageReference Include="R2API.RecalculateStats" Version="1.6.5" />
+		<PackageReference Include="UnityEngine.Modules" Version="2021.3.33" IncludeAssets="compile" />
+		<PackageReference Include="RiskOfRain2.GameLibs" Version="*-*" />
+		<PackageReference Include="MMHOOK.RoR2" Version="*" NoWarn="NU1701" />
+		<PackageReference Include="RoR2BepInExPack" Version="*" />
+
+		<Reference Include="RiskOfOptions">
+			<HintPath>WinnersDoDrugs/libs/RiskOfOptions.dll</HintPath>
+			<private>false</private>
+		</Reference>
+		<Reference Include="ShaderSwapper">
+			<HintPath>WinnersDoDrugs/libs/ShaderSwapper.dll</HintPath>
+			<private>false</private>
+		</Reference>
+		<Reference Include="Fnaf2FoxyJumpScare">
+			<HintPath>WinnersDoDrugs/libs/Fnaf2FoxyJumpScare.dll</HintPath>
+			<private>false</private>
+		</Reference>
+
+		<Lang Include="Language/en/en.language" />
+
+	</ItemGroup>
+
+	<Target Name="Lang" BeforeTargets="Build">
+		<Copy SourceFiles="@(Lang)" DestinationFolder="$(OutputPath)" />
+	</Target>
+</Project>
